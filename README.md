@@ -18,3 +18,6 @@ A bot to automate checkout processes on various websites such as Nike and Adidas
 1. User will create a task containing the link, size of choice, account details and payment details.
 2. Once 9:00 or drop time, user presses the start button.
 3. The bot will automate each task one at a time. Time to complete a task will be much quicker than normal humans, allowing larger amounts of entry.
+
+<h4>To do</h4>
+- Add ability to update profiles and addresses (https://www.youtube.com/watch?v=i4qLI9lmkqw)
