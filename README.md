@@ -12,3 +12,9 @@ A bot to automate checkout processes on various websites such as Nike and Adidas
 <h3>SNKRS TH</h3>
 
 - Most drops in SNKRS TH uses LEO. This means that you have to try to enter as much entries as possible within 2-3 minutes.
+
+<h4>Bot Process</h4>
+
+1. User will create a task containing the link, size of choice, account details and payment details.
+2. Once 9:00 or drop time, user presses the start button.
+3. The bot will automate each task one at a time. Time to complete a task will be much quicker than normal humans, allowing larger amounts of entry.
