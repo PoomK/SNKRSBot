@@ -9,6 +9,10 @@ A bot to automate checkout processes on various websites such as Nike and Adidas
 - Discord bot
 - Accounts using SQL
 
+<h2>Software functions</h2>
+
+- If billing same as shipping checkbutton pressed, then billing entries become disabled (https://stackoverflow.com/questions/43082390/tkinter-checkbox-with-command-attached)
+
 <h2>Nike SNKRS</h2>
 
 <h3>Types of SNKRS Drop</h3>
@@ -32,3 +36,12 @@ A bot to automate checkout processes on various websites such as Nike and Adidas
 - Add ability to update profiles and addresses (https://www.youtube.com/watch?v=i4qLI9lmkqw)
 - Add threading to perform multiple tasks at once
 - Proxies
+
+<h2>Proxies</h2>
+
+- Take a list of proxies from user
+- Split the values (https://www.w3schools.com/python/ref_string_split.asp)
+
+<h2>Discord</h2>
+
+- Add logging to discord bot
