@@ -28,6 +28,7 @@ A bot to automate checkout processes on various websites such as Nike and Adidas
 3. The bot will automate each task one at a time. Time to complete a task will be much quicker than normal humans, allowing larger amounts of entry.
 
 <h4>To do</h4>
+
 - Add ability to update profiles and addresses (https://www.youtube.com/watch?v=i4qLI9lmkqw)
 - Add threading to perform multiple tasks at once
 - Proxies
