@@ -2,6 +2,7 @@
 A bot to automate checkout processes on various websites such as Nike and Adidas. Selenium is used to automate the process. Tkinter is used to provide a graphical user interface (GUI). Right now I am only working on the SNKRS app for Thailand.
 
 <h3>To do</h3>
+
 - Design new theme
 - SNKRS TH
 - Adidas TH (Yeezy)
