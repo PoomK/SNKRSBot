@@ -1,6 +1,13 @@
 # PieBot
 A bot to automate checkout processes on various websites such as Nike and Adidas. Selenium is used to automate the process. Tkinter is used to provide a graphical user interface (GUI). Right now I am only working on the SNKRS app for Thailand.
 
+<h3>To do</h3>
+- Design new theme
+- SNKRS TH
+- Adidas TH (Yeezy)
+- Discord bot
+- Accounts using SQL
+
 <h2>Nike SNKRS</h2>
 
 <h3>Types of SNKRS Drop</h3>
@@ -21,3 +28,5 @@ A bot to automate checkout processes on various websites such as Nike and Adidas
 
 <h4>To do</h4>
 - Add ability to update profiles and addresses (https://www.youtube.com/watch?v=i4qLI9lmkqw)
+- Add threading to perform multiple tasks at once
+- Proxies
