@@ -45,6 +45,8 @@ A bot to automate checkout processes on various websites such as Nike and Adidas
 - Split the values (https://www.w3schools.com/python/ref_string_split.asp)
 
 <h2>Discord</h2>
+
 Developer portal: https://discord.com/developers/applications/720998084326195200/information
+
 
 - Add logging to discord bot
