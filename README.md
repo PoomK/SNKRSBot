@@ -8,10 +8,12 @@ A bot to automate checkout processes on various websites such as Nike and Adidas
 - Adidas TH (Yeezy)
 - Discord bot
 - Accounts using SQL
+- Vertical tab in task
 
 <h2>Software functions</h2>
 
 - If billing same as shipping checkbutton pressed, then billing entries become disabled (https://stackoverflow.com/questions/43082390/tkinter-checkbox-with-command-attached)
+- Create vertical tabs for each site if include more sites. Each tab will contain button for create task and start task
 
 <h2>Nike SNKRS</h2>
 
