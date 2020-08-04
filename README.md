@@ -9,6 +9,7 @@ A bot to automate checkout processes on various websites such as Nike and Adidas
 - Discord bot
 - Accounts using SQL
 - Vertical tab in task
+- Try ATC
 
 <h2>Software functions</h2>
 
