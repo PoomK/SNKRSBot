@@ -13,7 +13,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from datetime import datetime
 import time
 import random
-import discord
+#import discord
 
 class Sneaker:
     def __init__(self, root):
@@ -58,14 +58,14 @@ class Sneaker:
         TitleBarFrame = Frame(root, bd=1, bg='black')
         TitleBarFrame.place(x=0, y=40, width=1300, height=75)
 
-        lbl_TaskTabTitle = Label(TitleBarFrame, text="Pie Bot", font=('FixedSYS', '50','bold'), fg='deep sky blue', bg='Black')
+        lbl_TaskTabTitle = Label(TitleBarFrame, text="SNKRS Bot", font=('FixedSYS', '40','bold'), fg='deep sky blue', bg='Black')
         lbl_TaskTabTitle.grid(row=1, column=1, padx=5)
 
 #======= Images =======#
-        startButtonIcon = PhotoImage(file = r"C:/Users/User\Desktop/Hype-Bot/Images/PlayButton.png")
+        '''startButtonIcon = PhotoImage(file = r"C:/Users/User\Desktop/Hype-Bot/Images/PlayButton.png")
         checkIcon = PhotoImage(file = r"C:/Users/User\Desktop/Hype-Bot/Images/CheckIcon.png")
         crossIcon = PhotoImage(file = r"C:/Users/User\Desktop/Hype-Bot/Images/CrossIcon.png")
-        DiscordLogo = PhotoImage(file = r"C:/Users/User\Desktop/Hype-Bot/Images/DiscordIcon.png")
+        DiscordLogo = PhotoImage(file = r"C:/Users/User\Desktop/Hype-Bot/Images/DiscordIcon.png")'''
 
 #======= Tasks =======#
 
@@ -1304,7 +1304,7 @@ class Sneaker:
         lbl_notificationsTitle.grid(row=0, column=0)
 
     #===== Discord =====#
-        discordServerIDVar = StringVar()
+        '''discordServerIDVar = StringVar()
 
         lbl_discordTitle = Label(discordSettingsFrame, text="Discord", font=("URW Gothic L", 20, "bold"), fg='red', bg="black")
         lbl_discordTitle.grid(row=0, column=0)
@@ -1342,7 +1342,7 @@ class Sneaker:
         btn_testBot.grid(row=2, column=1, padx=10, pady=7, sticky='W')
 
         btn_startBot = Button(discordButtonFrame, text="start", font=('URW Gothic L', '10','bold'), bg="IndianRed2", activebackground="IndianRed1", width=12, height=2)
-        btn_startBot.grid(row=2, column=2, padx=10, pady=7, sticky='W')
+        btn_startBot.grid(row=2, column=2, padx=10, pady=7, sticky='W')'''
 
 root = Tk()
 ob = Sneaker(root)
