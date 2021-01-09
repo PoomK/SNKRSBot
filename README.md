@@ -1,6 +1,18 @@
 # SNKRSBot
 A bot to automate checkout processes on various websites such as Nike and Adidas. Selenium is used to automate the process. Tkinter is used to provide a graphical user interface (GUI). Right now I am only working on the SNKRS app for Thailand.
 
+<h2>TO DO</h2>
+
+- Create files for csv files if still no have
+- Test task and see if still works
+- Test system
+- Move everything to new file to make it neater -> make the theme simple, no colours, size, design
+- Add proxies
+  https://medium.com/ml-book/multiple-proxy-servers-in-selenium-web-driver-python-4e856136199d
+- Test out - make sure the system is not laggy
+- Add theme and layout
+- Discord
+
 <h3><u>To do</h3></u>
 
 - Design new theme
@@ -48,6 +60,5 @@ A bot to automate checkout processes on various websites such as Nike and Adidas
 <h2>Discord</h2>
 
 Developer portal: https://discord.com/developers/applications/720998084326195200/information
-
 
 - Add logging to discord bot
