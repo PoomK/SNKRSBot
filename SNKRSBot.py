@@ -300,7 +300,7 @@ class Sneaker:
                 driver = webdriver.Chrome(PATH)
 
                 #=== Create profile and shipping index to retrieve profile and shipping info ===#
-                profileIndex = profieNameArray.index(profileArray[index])
+                profileIndex = profileNameArray.index(profileArray[index])
                 shippingIndex = shippingNameArray.index(taskShippingArray[index])
 
                 if siteNameValue == "Nike_TH":
@@ -346,21 +346,28 @@ class Sneaker:
                         else:
                             loginInput.click()
 
-                        emailInput = driver.find_element_by_xpath("//input[@placeholder='ที่อยู่อีเมล']")
+                        emailInput = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//input[@data-componentname='emailAddress']")))
+                        # emailInput = driver.find_element_by_xpath("//input[@data-componentname='emailAddress']")
                         emailInput.click()
                         for character in emailInValue:
                             emailInput.send_keys(character)
                             #print(character)
-                            time.sleep(random.uniform(0,0.0001))
+                            time.sleep(random.uniform(0,0.1))
+
+                        time.sleep(1)
+
                         passwordInput = driver.find_element_by_xpath("//input[@placeholder='รหัสผ่าน']")
                         passwordInput.click()
                         for char in passwordInValue:
                             passwordInput.send_keys(char)
                             # print(char)
-                            time.sleep(random.uniform(0,0.0001))
+                            time.sleep(random.uniform(0,0.1))
+
+                        time.sleep(3)
+
                         login = driver.find_element_by_xpath("//input[@value='ลงชื่อเข้าใช้']").submit()
 
-                        time.sleep(1)
+                        time.sleep(2)
 
                         #=== Select sizes ===#
                         driver.implicitly_wait(5)
@@ -411,7 +418,7 @@ class Sneaker:
                                 driver.quit()
                                 task_start_selectSize_now = datetime.now()
                                 task_start_selectSize_time = task_start_selectSize_now.strftime("[%H:%M:%S]")
-                                logging_table.insert('', 'end', values=[task_start_selectSize_time + " - Task " + str(taskID) + " stopped (Size unavailable)"])
+                                logging_table.insert('', 'end', values=[task_start_selectSize_time + " - Task " + str(taskID) + " stopped (Login banned)"])
                             else:    
                                 size40But.click()
                         elif sizeInValue == "EU 40.5":
@@ -600,7 +607,7 @@ class Sneaker:
 #======= Profiles =======#
 
     #======= Profile Arrays =======#
-        profieNameArray = []
+        profileNameArray = []
         emailArray = []
         passwordArray = []
         profileSiteNameArray = []
@@ -796,7 +803,7 @@ class Sneaker:
                 profile_table.delete(b)
 
             #Clears arrays
-            del profieNameArray[:]
+            del profileNameArray[:]
             del emailArray[:]
             del passwordArray[:]
             del profileSiteNameArray[:]
@@ -820,7 +827,7 @@ class Sneaker:
                     expYearValue = row[6]
                     CVVValue = row[7]
 
-                    profieNameArray.append(profileNameValue)
+                    profileNameArray.append(profileNameValue)
                     emailArray.append(emailValue)
                     passwordArray.append(passwordValue)
                     profileSiteNameArray.append(profileSiteNameValue)
