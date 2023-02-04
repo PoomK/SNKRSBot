@@ -1,28 +1,6 @@
 # SNKRSBot
 A bot to automate checkout processes on various websites such as Nike and Adidas. Selenium is used to automate the process. Tkinter is used to provide a graphical user interface (GUI). Right now I am only working on the SNKRS app for Thailand.
 
-<h2>TO DO</h2>
-
-- Create files for csv files if still no have
-- Test task and see if still works
-- Test system
-- Move everything to new file to make it neater -> make the theme simple, no colours, size, design
-- Add proxies
-  https://medium.com/ml-book/multiple-proxy-servers-in-selenium-web-driver-python-4e856136199d
-- Test out - make sure the system is not laggy
-- Add theme and layout
-- Discord
-
-<h3><u>To do</h3></u>
-
-- Design new theme
-- SNKRS TH
-- Adidas TH (Yeezy)
-- Discord bot
-- Accounts using SQL
-- Vertical tab in task
-- Try ATC
-
 <h2>Software functions</h2>
 
 - If billing same as shipping checkbutton pressed, then billing entries become disabled (https://stackoverflow.com/questions/43082390/tkinter-checkbox-with-command-attached)
@@ -51,11 +29,6 @@ A bot to automate checkout processes on various websites such as Nike and Adidas
 - Add ability to update profiles and addresses (https://www.youtube.com/watch?v=i4qLI9lmkqw)
 - Add threading to perform multiple tasks at once
 - Proxies
-
-<h2>Proxies</h2>
-
-- Take a list of proxies from user
-- Split the values (https://www.w3schools.com/python/ref_string_split.asp)
 
 <h2>Discord</h2>
 
