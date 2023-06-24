@@ -24,14 +24,6 @@ A bot to automate checkout processes on various websites such as Nike and Adidas
 2. Once 9:00 or drop time, user presses the start button.
 3. The bot will automate each task one at a time. Time to complete a task will be much quicker than normal humans, allowing larger amounts of entry.
 
-<u><h4>To do</h4></u>
-
-- Add ability to update profiles and addresses (https://www.youtube.com/watch?v=i4qLI9lmkqw)
-- Add threading to perform multiple tasks at once
-- Proxies
-
 <h2>Discord</h2>
 
 Developer portal: https://discord.com/developers/applications/720998084326195200/information
-
-- Add logging to discord bot
