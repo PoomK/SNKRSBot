@@ -9,8 +9,8 @@ import random
 PATH = "C:\Program Files (x86)\chromedriver.exe"
 driver = webdriver.Chrome(PATH)
 
-emailIn = "pittawas.kijoran@gmail.com"
-passwordIn = "ItsPoom123"
+emailIn = "hello@gmail.com"
+passwordIn = "****"
 
 driver.get("https://www.nike.com/th/launch")
 
